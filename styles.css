@@ -86,3 +86,54 @@ p {
 .email-link:hover {
     text-decoration: underline;
 }
+.col-custom {
+    width: 50%;
+    float: left;
+    
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 60px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+        
+       
+    }
+
+    .navigation-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .primary-link,
+    .secondary-link {
+        font-size: 18px;
+        padding: 10px 8px;
+       
+    }
+
+   
+
+  .img-fluid{
+    display: none;
+  }
+   .col-custom {
+       width: 100%;
+      float: none;
+      
+   }
+
+   .navigation-links a,
+   .primary-link,
+   .secondary-link {
+       display: block;
+       margin: 10px 0;
+      
+   }
+   
+  
+}
