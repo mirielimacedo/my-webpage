@@ -49,6 +49,9 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
 }
+.primary-link:hover{
+    color: white;
+}
 
 .secondary-link {
     border-radius: 4px;
@@ -116,12 +119,11 @@ p {
 
    
 
-  .img-fluid{
-    display: none;
-  }
+  
    .col-custom {
        width: 100%;
       float: none;
+      margin: 15px;
       
    }
 
